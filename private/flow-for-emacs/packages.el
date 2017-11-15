@@ -29,8 +29,6 @@
 
 ;;; Code:
 
-(load-file "~/.emacs.d/private/flow-for-emacs/flow-for-emacs/flow.el")
-
 (defconst flow-for-emacs-packages
   '()
   "The list of Lisp packages required by the flow-for-emacs layer.
@@ -60,5 +58,6 @@ Each entry is either:
       - A list beginning with the symbol `recipe' is a melpa
         recipe.  See: https://github.com/milkypostman/melpa#recipe-format")
 
+(load-file "./.emacs.d/private/flow-for-emacs/flow.el")
 
 ;;; packages.el ends here
